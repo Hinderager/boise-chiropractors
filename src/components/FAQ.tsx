@@ -5,13 +5,13 @@ import { ChevronDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export const faqs = [
-  { question: 'How much does HVAC repair cost?', answer: 'Most repairs run between $150-500 depending on the issue. Diagnostic fees typically start around $89 and get applied to the repair cost if you move forward. We always provide upfront pricing before any work begins.' },
-  { question: 'How often should I service my HVAC system?', answer: 'We recommend a tune-up twice a year—once in spring for your AC and once in fall for your furnace. Regular maintenance catches small problems before they become expensive repairs and keeps your system running efficiently.' },
-  { question: 'Do you offer 24/7 emergency service?', answer: 'Yes. No heat in the middle of winter or AC failure during a heat wave? We get it—some things can\'t wait. Our emergency technicians are available around the clock, including weekends and holidays.' },
-  { question: 'How long does a new AC or furnace installation take?', answer: 'Most standard installations take one day. If we\'re replacing both your furnace and AC or doing ductwork modifications, it might take two days. We\'ll give you a timeline before we start.' },
-  { question: 'What brands do you work on?', answer: 'We service all major brands—Carrier, Trane, Lennox, Rheem, Goodman, Bryant, American Standard, and more. Our techs are trained to diagnose and repair any make or model.' },
-  { question: 'How do I know if I need a repair or replacement?', answer: 'Generally, if your system is over 15 years old and needs a repair costing more than half a new unit, replacement makes more sense. We\'ll always give you honest advice and both options so you can decide what\'s right for your situation.' },
-  { question: 'Do you offer financing?', answer: 'Yes, we offer flexible financing options on new equipment installations. Get a new system now and pay over time with approved credit. Ask us about current promotions.' },
+  { question: 'How much does a chiropractic adjustment cost?', answer: 'Initial visits including exam and adjustment typically run $75-150. Follow-up adjustments usually cost $40-75. Many insurance plans cover chiropractic care. We\'ll verify your benefits and explain costs upfront—no surprises.' },
+  { question: 'Does chiropractic treatment hurt?', answer: 'Most people feel immediate relief after an adjustment. You might hear popping sounds—that\'s just gas releasing from joints, totally normal. Some patients feel mild soreness afterward, similar to post-workout muscle fatigue, but it passes quickly.' },
+  { question: 'How many visits will I need?', answer: 'It depends on your condition. Acute issues like a thrown-out back might need just a few visits. Chronic problems take longer. After your exam, we\'ll give you a realistic treatment plan. We\'re not about endless appointments—our goal is getting you better.' },
+  { question: 'Do you take insurance?', answer: 'Yes. We work with most major insurance plans including auto accident and workers\' compensation cases. We\'ll verify your coverage and handle the paperwork. Self-pay options available too.' },
+  { question: 'Can you help with headaches and migraines?', answer: 'Absolutely. Many headaches come from neck tension and spinal misalignment. We\'ve helped countless patients reduce or eliminate chronic headaches and migraines through targeted adjustments and lifestyle recommendations.' },
+  { question: 'Is chiropractic safe?', answer: 'Yes, when performed by licensed professionals. Serious complications are extremely rare. We do a thorough exam first and adjust our techniques based on your specific needs. Chiropractic care is one of the safest, most effective treatments for back and neck pain.' },
+  { question: 'Can I see a chiropractor after a car accident?', answer: 'Definitely. We specialize in auto accident injuries like whiplash. Even if you don\'t feel pain immediately after an accident, get checked. We work with insurance companies and attorneys to document injuries and create treatment plans.' },
 ]
 
 export function FAQ() {

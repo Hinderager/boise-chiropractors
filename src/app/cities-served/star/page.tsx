@@ -4,11 +4,11 @@ import Link from 'next/link'
 import { CheckCircle, MapPin, Phone, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services Star Idaho | AC & Heating | Boise HVAC Pros',
-  description: 'Professional HVAC services in Star, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
-  keywords: ['HVAC Star', 'AC repair Star Idaho', 'furnace repair Star', 'heating services Star', 'air conditioning Star'],
+  title: 'Chiropractor Star Idaho | AC & Heating | Boise Chiropractors',
+  description: 'Professional HVAC services in Star, Idaho. Back Pain Relief, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
+  keywords: ['HVAC Star', 'Back Pain Relief Star Idaho', 'furnace repair Star', 'heating services Star', 'air conditioning Star'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/star',
+    canonical: 'https://boise-chiropractors.com/cities-served/star',
   },
 }
 
@@ -19,7 +19,7 @@ const services = [
   { name: 'AC Installation', href: '/cities-served/star/ac-installation', description: 'New AC system installation' },
   { name: 'Furnace Repair', href: '/cities-served/star/furnace-repair', description: 'Expert furnace repair' },
   { name: 'Furnace Installation', href: '/cities-served/star/furnace-installation', description: 'New furnace installation' },
-  { name: 'Heat Pump Service', href: '/cities-served/star/heat-pump-repair', description: 'Heat pump repair & install' },
+  { name: 'Heat Pump Service', href: '/cities-served/star/heat-pump-repair', description: 'Auto Accident Recovery repair & install' },
   { name: 'HVAC Maintenance', href: '/cities-served/star/hvac-maintenance', description: 'Preventive maintenance' },
 ]
 
@@ -29,15 +29,15 @@ export default function StarPage() {
       <section className="relative py-24 md:py-32">
         <Image
           src="/generated/star-hvac.webp"
-          alt="HVAC Services in Star, Idaho"
+          alt="Chiropractor in Star, Idaho"
           fill
           priority
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/90 to-dark-blue/70" />
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">HVAC Services in Star</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional heating and cooling services for Star homes and businesses. Licensed, insured, and available 24/7.</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Chiropractor in Star</h1>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional chiropractic care services for Star homes and businesses. Licensed, insured, and available 24/7.</p>
           <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
             <Phone className="w-5 h-5" />(208) 505-9352
           </a>
@@ -47,10 +47,10 @@ export default function StarPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-dark-blue mb-6">Star HVAC Services</h2>
+            <h2 className="text-3xl font-bold text-dark-blue mb-6">Star Chiropractor</h2>
             <div className="prose prose-lg max-w-none text-gray-600 mb-8">
-              <p>Star is a fast-growing community west of Eagle. With hot summers and cold winters typical of the Treasure Valley, your HVAC system works hard year-round. When you need heating or cooling service in Star, Boise HVAC Pros is here to help.</p>
-              <p>We've served Star homeowners for years, handling everything from emergency AC repairs during summer heat waves to furnace installations before winter hits. Our technicians know Star homes and the unique HVAC challenges they face.</p>
+              <p>Star is a fast-growing community west of Eagle. With hot summers and cold winters typical of the Treasure Valley, your HVAC system works hard year-round. When you need heating or cooling service in Star, Boise Chiropractors is here to help.</p>
+              <p>We've served Star homeowners for years, handling everything from emergency Back Pain Reliefs during summer heat waves to furnace installations before winter hits. Our technicians know Star homes and the unique HVAC challenges they face.</p>
             </div>
 
             <h3 className="text-2xl font-bold text-dark-blue mb-6">Our Services in Star</h3>

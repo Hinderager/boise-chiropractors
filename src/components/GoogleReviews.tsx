@@ -6,14 +6,14 @@ import { Button } from '@/components/ui/button'
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const staticReviews = [
-  { author: 'Mike R.', relative_time: '2 weeks ago', rating: 5, text: 'Our AC stopped working on the hottest day of July. Called them and they had a tech out within 2 hours. Fixed the issue quickly and explained everything. Fair price, no pressure. Highly recommend!' },
-  { author: 'Sarah T.', relative_time: '1 month ago', rating: 5, text: 'Had them install a new furnace before winter hit. The crew was professional, cleaned up after themselves, and the new system works great. Our heating bills are noticeably lower now.' },
-  { author: 'David L.', relative_time: '3 weeks ago', rating: 5, text: 'Used them for annual HVAC maintenance. Tech was knowledgeable and thorough. Found a small issue before it became a big problem. Great preventive service at a reasonable price.' },
-  { author: 'Jennifer M.', relative_time: '2 months ago', rating: 5, text: 'Our heat pump was making strange noises. They diagnosed the problem accurately and had the parts to fix it same day. Very impressed with their expertise and efficiency.' },
-  { author: 'Chris B.', relative_time: '1 week ago', rating: 5, text: 'Honest company. They could have sold me a new AC unit but instead recommended a repair that cost a fraction. System has been running perfectly since. Will use them for all our HVAC needs.' },
-  { author: 'Amanda K.', relative_time: '1 month ago', rating: 5, text: 'Emergency furnace repair in January - they answered the phone at 10pm and had someone here by midnight. Saved us from a very cold night. These guys are the real deal.' },
-  { author: 'Tom H.', relative_time: '3 weeks ago', rating: 5, text: 'Just had a new AC system installed. From the estimate to final installation, everything was professional. The techs explained how to use the new thermostat and answered all my questions.' },
-  { author: 'Lisa P.', relative_time: '2 weeks ago', rating: 5, text: 'Best HVAC company in Boise. Fast response, fair prices, quality work. They serviced both our AC and furnace and everything runs perfectly now. Friendly staff too!' },
+  { author: 'Rachel M.', relative_time: '2 weeks ago', rating: 5, text: 'Been dealing with lower back pain for months. After just three adjustments, I can actually sleep through the night again. Dr. Johnson really takes time to listen and explain what he\'s doing.' },
+  { author: 'Brandon K.', relative_time: '1 month ago', rating: 5, text: 'Threw my back out lifting weights. Same-day appointment, felt immediate relief after the first adjustment. They gave me exercises to prevent it from happening again. Life saver!' },
+  { author: 'Michelle P.', relative_time: '3 weeks ago', rating: 5, text: 'Car accident left me with horrible neck pain and headaches. The team here worked with my insurance and got me on a treatment plan. After six weeks, I\'m back to normal. So grateful!' },
+  { author: 'Tyler S.', relative_time: '2 months ago', rating: 5, text: 'As a runner, I thought my IT band pain was just part of the deal. The chiropractor here found the real issue in my hips and spine. No pain for the first time in years!' },
+  { author: 'Emily R.', relative_time: '1 week ago', rating: 5, text: 'I was skeptical about chiropractic care, but chronic migraines were ruining my life. After adjustments focusing on my neck, my migraines are almost completely gone. Wish I\'d come sooner!' },
+  { author: 'Jason T.', relative_time: '1 month ago', rating: 5, text: 'Sciatica made it painful to even sit at my desk. They explained everything clearly and after consistent treatment, I\'m pain-free and back at work without issues.' },
+  { author: 'Andrea L.', relative_time: '3 weeks ago', rating: 5, text: 'Friendly staff, clean office, and most importantly—results. My posture has improved and the constant shoulder pain I had from desk work is gone. Highly recommend!' },
+  { author: 'Mark D.', relative_time: '2 weeks ago', rating: 5, text: 'Best chiropractor in Boise. Not pushy about ongoing appointments. Got me fixed up in a few visits and gave me the tools to maintain my health. Fair pricing too.' },
 ]
 
 export function GoogleReviews() {

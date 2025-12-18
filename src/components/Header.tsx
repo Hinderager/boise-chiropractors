@@ -7,50 +7,57 @@ import { Button } from '@/components/ui/button'
 
 const serviceCategories = [
   {
-    name: 'Air Conditioning',
-    href: '/services/air-conditioning',
+    name: 'Adjustments',
+    href: '/services/adjustments',
     services: [
-      { name: 'AC Repair', href: '/services/air-conditioning/ac-repair' },
-      { name: 'AC Maintenance', href: '/services/air-conditioning/ac-maintenance' },
-      { name: 'AC Installation', href: '/services/air-conditioning/ac-installation' },
-      { name: 'Emergency AC Repair', href: '/services/air-conditioning/emergency-ac-repair' },
-      { name: 'Thermostat Repair', href: '/services/air-conditioning/thermostat-repair' },
+      { name: 'Spinal Adjustments', href: '/services/adjustments/spinal-adjustments' },
+      { name: 'Manual Adjustments', href: '/services/adjustments/manual-adjustments' },
+      { name: 'Instrument Adjustments', href: '/services/adjustments/instrument-adjustments' },
     ]
   },
   {
-    name: 'Heating',
-    href: '/services/heating',
+    name: 'Back Pain',
+    href: '/services/back-pain',
     services: [
-      { name: 'Heater Repair', href: '/services/heating/heater-repair' },
-      { name: 'Heater Maintenance', href: '/services/heating/heater-maintenance' },
-      { name: 'Heater Installation', href: '/services/heating/heater-installation' },
+      { name: 'Lower Back Pain', href: '/services/back-pain/lower-back-pain' },
+      { name: 'Upper Back Pain', href: '/services/back-pain/upper-back-pain' },
+      { name: 'Sciatica Treatment', href: '/services/back-pain/sciatica-treatment' },
     ]
   },
   {
-    name: 'Furnaces',
-    href: '/services/furnaces',
+    name: 'Neck Pain',
+    href: '/services/neck-pain',
     services: [
-      { name: 'Furnace Repair', href: '/services/furnaces/furnace-repair' },
-      { name: 'Furnace Maintenance', href: '/services/furnaces/furnace-maintenance' },
-      { name: 'Furnace Installation', href: '/services/furnaces/furnace-installation' },
+      { name: 'Neck Pain Relief', href: '/services/neck-pain/neck-pain-relief' },
+      { name: 'Whiplash Treatment', href: '/services/neck-pain/whiplash-treatment' },
+      { name: 'Headache Relief', href: '/services/neck-pain/headache-relief' },
     ]
   },
   {
-    name: 'Heat Pumps',
-    href: '/services/heat-pumps',
+    name: 'Sports Injuries',
+    href: '/services/sports-injuries',
     services: [
-      { name: 'Heat Pump Repair', href: '/services/heat-pumps/heat-pump-repair' },
-      { name: 'Heat Pump Maintenance', href: '/services/heat-pumps/heat-pump-maintenance' },
-      { name: 'Heat Pump Installation', href: '/services/heat-pumps/heat-pump-installation' },
+      { name: 'Athletic Injuries', href: '/services/sports-injuries/athletic-injuries' },
+      { name: 'Sports Recovery', href: '/services/sports-injuries/sports-recovery' },
+      { name: 'Performance Care', href: '/services/sports-injuries/performance-care' },
     ]
   },
   {
-    name: 'Indoor Air Quality',
-    href: '/services/indoor-air-quality',
+    name: 'Auto Accidents',
+    href: '/services/auto-accidents',
     services: [
-      { name: 'Air Purifiers', href: '/services/indoor-air-quality/air-purifiers' },
-      { name: 'Duct Cleaning', href: '/services/indoor-air-quality/duct-cleaning' },
-      { name: 'UV Light Installation', href: '/services/indoor-air-quality/uv-light-installation' },
+      { name: 'Car Accident Injuries', href: '/services/auto-accidents/car-accident-injuries' },
+      { name: 'Whiplash Recovery', href: '/services/auto-accidents/whiplash-recovery' },
+      { name: 'Personal Injury Care', href: '/services/auto-accidents/personal-injury-care' },
+    ]
+  },
+  {
+    name: 'Wellness Care',
+    href: '/services/wellness-care',
+    services: [
+      { name: 'Preventive Care', href: '/services/wellness-care/preventive-care' },
+      { name: 'Posture Correction', href: '/services/wellness-care/posture-correction' },
+      { name: 'Maintenance Care', href: '/services/wellness-care/maintenance-care' },
     ]
   },
 ]
@@ -101,7 +108,7 @@ export function Header() {
         <div className="bg-[#10477d] lg:rounded-lg border-b-2 lg:border-2 border-[#1e3a5f] shadow-xl px-2 sm:px-4 md:px-6 lg:px-8 flex items-center h-14 lg:h-20">
           <Link href="/" className="flex items-center lg:flex-1 flex-1 justify-start">
             <span className="text-lg sm:text-xl lg:text-2xl font-bold text-white">
-              Boise <span className="text-[#FFC845]">HVAC</span> Pros
+              Boise <span className="text-[#FFC845]">Chiropractors</span>
             </span>
           </Link>
 
@@ -182,9 +189,9 @@ export function Header() {
                 <div className="absolute left-0 top-full mt-2 w-[200px] bg-white shadow-lg rounded-lg p-4">
                   <ul className="space-y-2">
                     <li><Link href="/resources/faq" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">FAQ</Link></li>
-                    <li><Link href="/resources/hvac-tips" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">HVAC Tips</Link></li>
-                    <li><Link href="/resources/repair-vs-replace" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Repair vs Replace</Link></li>
-                    <li><Link href="/resources/financing" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Financing</Link></li>
+                    <li><Link href="/resources/health-tips" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Health Tips</Link></li>
+                    <li><Link href="/resources/payment-options" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Payment Options</Link></li>
+                    <li><Link href="/resources/new-patient-info" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">New Patient Info</Link></li>
                     <li><Link href="/blogs" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Blog</Link></li>
                   </ul>
                 </div>

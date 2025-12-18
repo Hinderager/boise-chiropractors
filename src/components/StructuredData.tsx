@@ -7,11 +7,11 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 }
 
 const faqData = [
-  { question: 'How much does HVAC repair cost in Boise?', answer: 'Most HVAC repairs in Boise cost between $150-500 depending on the issue. Diagnostic fees typically start around $89 and get applied to the repair cost. We provide exact quotes before any work begins.' },
-  { question: 'How often should I service my HVAC system?', answer: 'We recommend servicing your HVAC system twice a year—once in spring for AC and once in fall for heating. Regular maintenance prevents costly breakdowns and extends equipment life.' },
-  { question: 'Do you offer 24/7 emergency HVAC service?', answer: 'Yes! We offer 24/7 emergency heating and AC repair throughout the Treasure Valley. Call (208) 505-9352 for immediate service.' },
-  { question: 'How long does a new furnace or AC installation take?', answer: 'Most standard installations take one day. Complex installations involving both furnace and AC or ductwork may take two days.' },
-  { question: 'What HVAC brands do you service?', answer: 'We service all major brands including Carrier, Trane, Lennox, Rheem, Goodman, Bryant, American Standard, and more.' },
+  { question: 'How much does a chiropractic adjustment cost in Boise?', answer: 'Initial chiropractic visits in Boise typically cost $75-150 including exam and adjustment. Follow-up adjustments usually cost $40-75. Many insurance plans cover chiropractic care.' },
+  { question: 'Does chiropractic treatment hurt?', answer: 'Most people feel immediate relief after an adjustment. You might hear popping sounds—that\'s normal. Some patients feel mild soreness afterward, but it passes quickly.' },
+  { question: 'How many chiropractic visits will I need?', answer: 'It depends on your condition. Acute issues might need just a few visits. Chronic problems take longer. After your exam, we\'ll give you a realistic treatment plan.' },
+  { question: 'Do you take insurance for chiropractic care?', answer: 'Yes! We work with most major insurance plans including auto accident and workers\' compensation cases. Call (208) 505-9352 to verify your coverage.' },
+  { question: 'Can chiropractors help with headaches?', answer: 'Yes. Many headaches come from neck tension and spinal misalignment. We\'ve helped countless patients reduce or eliminate chronic headaches and migraines.' },
   { question: 'What areas do you serve?', answer: 'We serve Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities.' },
 ]
 
@@ -20,12 +20,12 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
 
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": `Boise HVAC Pros - ${city}`,
-    "description": `Professional HVAC services in ${city}, Idaho. AC repair, furnace installation, heating services. Licensed and insured. 24/7 emergency service.`,
-    "url": "https://hvac-boise.com",
+    "@type": "Chiropractor",
+    "name": `Boise Chiropractors - ${city}`,
+    "description": `Expert chiropractic care in ${city}, Idaho. Back pain relief, neck pain treatment, sports injuries, auto accident recovery. Licensed chiropractors. Same day appointments available.`,
+    "url": "https://boise-chiropractors.com",
     "telephone": "+1-208-505-9352",
-    "email": "info@hvac-boise.com",
+    "email": "info@boise-chiropractors.com",
     "address": { "@type": "PostalAddress", "addressLocality": city, "addressRegion": "ID", "addressCountry": "US" },
     "geo": { "@type": "GeoCoordinates", "latitude": coords.lat, "longitude": coords.lng },
     "areaServed": [
@@ -35,22 +35,21 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       { "@type": "City", "name": "Caldwell", "addressRegion": "ID" },
       { "@type": "City", "name": "Eagle", "addressRegion": "ID" }
     ],
-    "serviceType": ["AC Repair", "AC Installation", "Furnace Repair", "Furnace Installation", "HVAC Maintenance", "Emergency HVAC Service", "Heating Repair", "Air Conditioning Service"],
+    "serviceType": ["Chiropractic Adjustments", "Back Pain Treatment", "Neck Pain Relief", "Sports Injury Treatment", "Auto Accident Injury", "Whiplash Treatment", "Sciatica Treatment", "Wellness Care"],
     "priceRange": "$$",
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:00", "closes": "19:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday"], "opens": "00:00", "closes": "23:59", "description": "24/7 Emergency Service" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00" }
     ],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "87" }
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "150" }
   }
 
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "HVAC Services",
-    "provider": { "@type": "HVACBusiness", "name": "Boise HVAC Pros" },
+    "serviceType": "Chiropractic Services",
+    "provider": { "@type": "Chiropractor", "name": "Boise Chiropractors" },
     "areaServed": { "@type": "State", "name": "Idaho" },
-    "description": `Professional heating and air conditioning services in ${city} and the Treasure Valley. AC repair, furnace installation, HVAC maintenance, and 24/7 emergency service.`
+    "description": `Expert chiropractic care in ${city} and the Treasure Valley. Back pain relief, neck pain treatment, sports injuries, auto accident recovery, and wellness care.`
   }
 
   const faqSchema = {

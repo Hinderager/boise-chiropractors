@@ -4,11 +4,11 @@ import Link from 'next/link'
 import { CheckCircle, MapPin, Phone, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services Kuna Idaho | AC & Heating | Boise HVAC Pros',
-  description: 'Professional HVAC services in Kuna, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
-  keywords: ['HVAC Kuna', 'AC repair Kuna Idaho', 'furnace repair Kuna', 'heating services Kuna', 'air conditioning Kuna'],
+  title: 'Chiropractor Kuna Idaho | AC & Heating | Boise Chiropractors',
+  description: 'Professional HVAC services in Kuna, Idaho. Back Pain Relief, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
+  keywords: ['HVAC Kuna', 'Back Pain Relief Kuna Idaho', 'furnace repair Kuna', 'heating services Kuna', 'air conditioning Kuna'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/kuna',
+    canonical: 'https://boise-chiropractors.com/cities-served/kuna',
   },
 }
 
@@ -19,7 +19,7 @@ const services = [
   { name: 'AC Installation', href: '/cities-served/kuna/ac-installation', description: 'New AC system installation' },
   { name: 'Furnace Repair', href: '/cities-served/kuna/furnace-repair', description: 'Expert furnace repair' },
   { name: 'Furnace Installation', href: '/cities-served/kuna/furnace-installation', description: 'New furnace installation' },
-  { name: 'Heat Pump Service', href: '/cities-served/kuna/heat-pump-repair', description: 'Heat pump repair & install' },
+  { name: 'Heat Pump Service', href: '/cities-served/kuna/heat-pump-repair', description: 'Auto Accident Recovery repair & install' },
   { name: 'HVAC Maintenance', href: '/cities-served/kuna/hvac-maintenance', description: 'Preventive maintenance' },
 ]
 
@@ -29,15 +29,15 @@ export default function KunaPage() {
       <section className="relative py-24 md:py-32">
         <Image
           src="/generated/kuna-hvac.webp"
-          alt="HVAC Services in Kuna, Idaho"
+          alt="Chiropractor in Kuna, Idaho"
           fill
           priority
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/90 to-dark-blue/70" />
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">HVAC Services in Kuna</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional heating and cooling services for Kuna homes and businesses. Licensed, insured, and available 24/7.</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Chiropractor in Kuna</h1>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional chiropractic care services for Kuna homes and businesses. Licensed, insured, and available 24/7.</p>
           <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
             <Phone className="w-5 h-5" />(208) 505-9352
           </a>
@@ -47,10 +47,10 @@ export default function KunaPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-dark-blue mb-6">Kuna HVAC Services</h2>
+            <h2 className="text-3xl font-bold text-dark-blue mb-6">Kuna Chiropractor</h2>
             <div className="prose prose-lg max-w-none text-gray-600 mb-8">
-              <p>Kuna is a rapidly growing community south of Meridian. With hot, dry summers and cold winters, your HVAC system works hard year-round. When you need heating or cooling service in Kuna, Boise HVAC Pros is here to help.</p>
-              <p>We've served Kuna homeowners for years, handling everything from emergency AC repairs during summer heat waves to furnace installations before winter hits. Our technicians know Kuna homes and the unique HVAC challenges they face.</p>
+              <p>Kuna is a rapidly growing community south of Meridian. With hot, dry summers and cold winters, your HVAC system works hard year-round. When you need heating or cooling service in Kuna, Boise Chiropractors is here to help.</p>
+              <p>We've served Kuna homeowners for years, handling everything from emergency Back Pain Reliefs during summer heat waves to furnace installations before winter hits. Our technicians know Kuna homes and the unique HVAC challenges they face.</p>
             </div>
 
             <h3 className="text-2xl font-bold text-dark-blue mb-6">Our Services in Kuna</h3>

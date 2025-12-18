@@ -18,12 +18,12 @@ export function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-4 text-light-blue">Services</h4>
             <ul className="space-y-2">
-              <li><Link href="/ac-repair" className="text-white/80 hover:text-white transition-colors">AC Repair</Link></li>
-              <li><Link href="/ac-installation" className="text-white/80 hover:text-white transition-colors">AC Installation</Link></li>
-              <li><Link href="/heating-repair" className="text-white/80 hover:text-white transition-colors">Heating Repair</Link></li>
-              <li><Link href="/furnace-installation" className="text-white/80 hover:text-white transition-colors">Furnace Installation</Link></li>
-              <li><Link href="/hvac-maintenance" className="text-white/80 hover:text-white transition-colors">HVAC Maintenance</Link></li>
-              <li><Link href="/emergency-hvac" className="text-white/80 hover:text-white transition-colors">24/7 Emergency</Link></li>
+              <li><Link href="/services/adjustments" className="text-white/80 hover:text-white transition-colors">Adjustments</Link></li>
+              <li><Link href="/services/back-pain" className="text-white/80 hover:text-white transition-colors">Back Pain</Link></li>
+              <li><Link href="/services/neck-pain" className="text-white/80 hover:text-white transition-colors">Neck Pain</Link></li>
+              <li><Link href="/services/sports-injuries" className="text-white/80 hover:text-white transition-colors">Sports Injuries</Link></li>
+              <li><Link href="/services/auto-accidents" className="text-white/80 hover:text-white transition-colors">Auto Accidents</Link></li>
+              <li><Link href="/services/wellness-care" className="text-white/80 hover:text-white transition-colors">Wellness Care</Link></li>
             </ul>
           </div>
 
@@ -47,7 +47,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
-                <a href="mailto:info@hvac-boise.com" className="text-white/80 hover:text-white transition-colors">info@hvac-boise.com</a>
+                <a href="mailto:info@boise-chiropractors.com" className="text-white/80 hover:text-white transition-colors">info@boise-chiropractors.com</a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
@@ -55,7 +55,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
-                <p className="text-white/80">Mon-Fri: 7am - 7pm<br />24/7 Emergency Service</p>
+                <p className="text-white/80">Mon-Fri: 8am - 6pm<br />Same Day Appointments</p>
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@ export function Footer() {
               <span className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center"><Linkedin className="h-5 w-5" /></span>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-white/60 text-sm">&copy; {new Date().getFullYear()} Boise HVAC Pros. All rights reserved.</p>
+              <p className="text-white/60 text-sm">&copy; {new Date().getFullYear()} Boise Chiropractors. All rights reserved.</p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">Privacy Policy</Link>
                 <Link href="/terms" className="text-white/60 text-sm hover:text-white transition-colors">Terms of Service</Link>

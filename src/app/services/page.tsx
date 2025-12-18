@@ -3,18 +3,18 @@ import Link from 'next/link'
 import { ArrowRight, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services | Heating & Cooling | Boise HVAC Pros',
-  description: 'Complete HVAC services in the Treasure Valley. AC repair, furnace installation, heat pumps, and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://hvac-boise.com/services' },
+  title: 'Chiropractic Services | Pain Relief & Wellness | Boise Chiropractors',
+  description: 'Complete chiropractic care in the Treasure Valley. Adjustments, pain relief, sports injuries, auto accidents, and wellness care. Call (208) 505-9352.',
+  alternates: { canonical: 'https://boise-chiropractors.com/services' },
 }
 
 const categories = [
-  { name: 'Air Conditioning', slug: 'air-conditioning', description: 'Complete air conditioning services including repair, maintenance, and installation for homes and businesses.' },
-  { name: 'Heating', slug: 'heating', description: 'Complete heating services including heater repair, maintenance, and installation.' },
-  { name: 'Furnaces', slug: 'furnaces', description: 'Complete furnace services including repair, maintenance, and installation.' },
-  { name: 'Heat Pumps', slug: 'heat-pumps', description: 'Complete heat pump services including repair, maintenance, and installation.' },
-  { name: 'Indoor Air Quality', slug: 'indoor-air-quality', description: 'Indoor air quality services to improve the air you breathe.' },
-  { name: 'Ductwork', slug: 'ductwork', description: 'Ductwork services including repair, replacement, and sealing.' },
+  { name: 'Chiropractic Adjustments', slug: 'adjustments', description: 'Precise spinal adjustments using manual, instrument, and specialized techniques to restore proper alignment and nervous system function.' },
+  { name: 'Back Pain Treatment', slug: 'back-pain', description: 'Expert treatment for lower back pain, upper back pain, sciatica, and chronic back conditions. Get relief from pain that is holding you back.' },
+  { name: 'Neck Pain & Headaches', slug: 'neck-pain', description: 'Effective treatment for neck pain, whiplash, tension headaches, and migraines. Address the root cause, not just the symptoms.' },
+  { name: 'Sports Injuries', slug: 'sports-injuries', description: 'Sports injury treatment and athletic performance care. Get back in the game with specialized chiropractic care for athletes.' },
+  { name: 'Auto Accident Recovery', slug: 'auto-accidents', description: 'Comprehensive care for auto accident injuries including whiplash, back pain, and soft tissue damage. We work with insurance.' },
+  { name: 'Wellness Care', slug: 'wellness-care', description: 'Preventive chiropractic care, posture correction, and maintenance treatments to keep you feeling your best every day.' },
 ]
 
 export default function ServicesPage() {
@@ -22,8 +22,8 @@ export default function ServicesPage() {
     <main className="pt-20">
       <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Our HVAC Services</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Complete heating and cooling services for the Treasure Valley.</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Chiropractic Services</h1>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Complete chiropractic care for pain relief, injury recovery, and optimal health in the Treasure Valley.</p>
         </div>
       </section>
       <section className="py-16 bg-white">
@@ -41,7 +41,7 @@ export default function ServicesPage() {
       </section>
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-white mb-4">Need HVAC Service?</h2>
+          <h2 className="text-2xl font-bold text-white mb-4">Ready to Feel Better?</h2>
           <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
             <Phone className="w-5 h-5" />(208) 505-9352
           </a>

@@ -1,64 +1,56 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HVAC Blog | Heating & Cooling Tips | Boise HVAC Pros',
-  description: 'Expert tips, guides, and insights about heating and air conditioning in Boise and the Treasure Valley. Learn from the pros at Boise HVAC Pros.',
+  title: 'Chiropractic Blog | Health & Wellness Tips | Boise Chiropractors',
+  description: 'Expert tips, guides, and insights about chiropractic care, pain relief, and wellness in Boise and the Treasure Valley. Real advice from experienced chiropractors.',
   alternates: {
-    canonical: 'https://hvac-boise.com/blogs',
+    canonical: 'https://boise-chiropractors.com/blogs',
   },
 }
 
 const blogPosts = [
   {
-    slug: 'hvac-pricing-explained',
-    title: 'HVAC Service Pricing: How It Actually Works',
-    excerpt: 'Wondering what HVAC repairs or installations cost in Boise? Here\'s the straightforward explanation.',
-    image: '/hero-hvac.jpg',
+    slug: 'choosing-chiropractor-boise',
+    title: 'How to Choose a Chiropractor in Boise',
+    excerpt: 'Not all chiropractors are the same. Here is what to look for and what to avoid when choosing your chiropractic care.',
   },
   {
-    slug: 'signs-ac-needs-repair',
-    title: '7 Signs Your AC Needs Repair (Before It Dies Completely)',
-    excerpt: 'Your AC is probably warning you before it fails. Here\'s what to watch for.',
-    image: '/hero-hvac.jpg',
+    slug: 'chiropractic-care-costs',
+    title: 'Chiropractic Care Costs: How Pricing Actually Works',
+    excerpt: 'Wondering what chiropractic adjustments cost in Boise? Here is the straightforward explanation of pricing and insurance.',
   },
   {
-    slug: 'repair-vs-replace-furnace',
-    title: 'Should You Repair or Replace Your Furnace?',
-    excerpt: 'Sometimes repair makes sense. Sometimes you\'re just throwing money away. Here\'s how to decide.',
-    image: '/hero-hvac.jpg',
+    slug: 'signs-you-need-chiropractor',
+    title: '7 Signs You Need to See a Chiropractor',
+    excerpt: 'Your body is probably warning you. Here are the signs that it is time to see a chiropractor.',
   },
   {
-    slug: 'choosing-hvac-contractor-boise',
-    title: 'How to Choose an HVAC Contractor in Boise',
-    excerpt: 'Not all HVAC companies are the same. Here\'s what to look for and what to avoid.',
-    image: '/hero-hvac.jpg',
+    slug: 'when-to-see-chiropractor',
+    title: 'When Should You See a Chiropractor?',
+    excerpt: 'Not sure if chiropractic care is right for your condition? Here is how to decide.',
   },
   {
-    slug: 'seasonal-hvac-maintenance',
-    title: 'Seasonal HVAC Maintenance for Idaho Homes',
-    excerpt: 'Idaho puts your HVAC through extremes. Here\'s how to keep it running through hot summers and cold winters.',
-    image: '/hero-hvac.jpg',
+    slug: 'wellness-chiropractic-care',
+    title: 'Wellness Chiropractic Care for Long-Term Health',
+    excerpt: 'Chiropractic is not just for pain. Here is how regular wellness care keeps you healthy year-round.',
   },
 ]
 
 export default function BlogsPage() {
   return (
     <main className="pt-20">
-      {/* Hero Section */}
       <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
             Our Blog
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Tips, guides, and insights about heating and cooling in the Treasure Valley. Real advice from real HVAC professionals.
+            Tips, guides, and insights about chiropractic care and wellness in the Treasure Valley. Real advice from experienced professionals.
           </p>
         </div>
       </section>
 
-      {/* Blog Grid */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -67,7 +59,7 @@ export default function BlogsPage() {
                 <Link href={`/blogs/${post.slug}`}>
                   <div className="relative h-48 bg-dark-blue">
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-white/20 text-6xl font-bold">HVAC</span>
+                      <span className="text-white/20 text-5xl font-bold">Chiropractic</span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -91,14 +83,13 @@ export default function BlogsPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-16 bg-dark-blue">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Get Started?
+            Ready to Feel Better?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free estimate on your HVAC project.
+            Schedule your appointment today and start your journey to better health.
           </p>
           <a
             href="tel:2085059352"
